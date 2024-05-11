@@ -37,7 +37,7 @@ function abc() {
 
 
 		}
-		console.log(letters)
+		
 
 		var value = document.getElementById("range").value
 
