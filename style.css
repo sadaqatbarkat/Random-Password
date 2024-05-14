@@ -1,11 +1,11 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
 
-.parent{
+.parent {
 	height: 100vh;
 	background: #f0f0f0;
 	overflow: hidden;
@@ -17,7 +17,7 @@
 
 
 
-#child{
+#child {
 
 	width: 300px;
 	height: 78vh;
@@ -28,21 +28,24 @@
 
 
 }
-h2{
+
+h2 {
 	padding-left: 1rem;
 	padding-top: 0.8rem;
-	color:#1a237e;
+	color: #1a237e;
 	font-weight: 600;
-	
+
 }
-.two{
+
+.two {
 	background-color: green;
 }
+
 /* hr{
 	color:  #1a237e;
 
 } */
-.text{
+.text {
 	width: 270px;
 	height: 50px;
 	outline: 0;
@@ -55,27 +58,33 @@ h2{
 	word-wrap: break-word !important;
 
 }
-p,span{
+
+p,
+span {
 	padding-left: 1rem;
 	padding-top: 1rem;
 	color: #1a237e;
-	
+
 }
-span{
+
+span {
 	padding-right: 1rem;
 	padding-top: 1rem;
 }
-.para{
+
+.para {
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: space-between;
 }
-.lenght{
+
+.lenght {
 	display: flex;
 	justify-content: space-between;
 
 }
-.track{
+
+.track {
 	display: flex;
 	justify-content: center;
 }
@@ -92,7 +101,8 @@ span{
 	margin-top: 1rem;
 
 }
-.slider::-webkit-slider-thumb{
+
+.slider::-webkit-slider-thumb {
 
 	appearance: none;
 	width: 15px;
@@ -102,11 +112,11 @@ span{
 	border: 2px solid #ffffff;
 	outline: 2px solid #4400ff;
 	cursor: pointer;
-	
-} 
 
-#checkboxes{
-	
+}
+
+#checkboxes {
+
 	display: flex;
 	padding-left: 1rem;
 	align-items: flex-start;
@@ -114,48 +124,36 @@ span{
 	box-shadow: 0 0 5px rgba(107, 107, 107, 0.4);
 	border-radius: 10px;
 	padding: 10px 15px;
-	width:270px ;
+	width: 270px;
 	margin-left: 1rem;
 	margin-top: 0.8rem;
 	font-weight: 500;
 }
-.one{
+
+.one {
 	position: relative;
 	top: 2.5px;
-	
+
 }
-button{
+
+button {
 	cursor: pointer;
 	font-size: 1.1rem;
 	border: 0;
+	border-radius: 10px;
 	outline: 0;
 	margin-top: 1rem;
-     margin-left: 1rem;
-	 color: #ffffff;
-	 background-color: #1a237e;
+	margin-left: 1rem;
+	color: #ffffff;
+	background-color: #1a237e;
 	width: 270px;
 	height: 40px;
-	
+
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+::placeholder{
+text-align: center;
+	color: red;
+}
 
